@@ -2,6 +2,7 @@
 BODY {
  font-family:Times New Roman, Times, serif;
 color: #000000;
+  background-color: #FFFFB6;
 }
 
 a:link {
@@ -36,8 +37,14 @@ function reSwapImage(img) {
 if (__navi_init_done__)document.images[img].src = eval(img + '_no.src');
 }
 
+function swap2(img) {
+	if (__navi_init_done__)document.images[img].src = eval(img + '_c.src');
+
+function reSwap2(img) {
+	if (__navi_init_done__)document.images[img].src = eval(img - '_c.jpg' + '.src');
+}
 function __moveToParent() {
-	var currentId = '47888';
+	var currentId = '4436';
 	var parent = theSitetree.getParentById(currentId);
 	if (parent != null)
 		document.location.href = __path_prefix__ + parent[POS_HREF] + "?" + URL.getSessionString();
@@ -62,10 +69,53 @@ if (typeof(moveToParent) != "function") {
 							<TD width="9"rowspan="2" height="85"></TD>
 						</TR>
 						<TR>
-							<TD><IMG width="520" src="./imgs/company_name.jpg" height="105.03"></TD>
+							<TD><IMG width="520" src="./imgs/company_name_y.jpg" height="105.03"></TD>
 						</TR>
-				</TABLE></TD></TR><TR><TD width="563"></TD></TR></TABLE></TD></TR><TR><TD valign="top"><TABLE width="760" cellspacing="0" cellpadding="0" border="0"><TR><TD width="150" valign="top" background="./imgs/hg_nav.jpg"><TABLE cellspacing="0" cellpadding="0" border="0"><TR><TD><IMG src="./templates/Eatdrink/img/7575CE/nav_start.gif"></TD></TR><TR><TD><A onmouseout="reSwapImage('CM4all_4436');" onmouseover="swapImage('CM4all_4436');" href="./4436.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_4436" src="./templates/Eatdrink/img/navi/4436_n.gif?cc=1072640262129" alt="About Us" border="0"></A></TD></TR><TR><TD><A href="./47888.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47888" src="./templates/Eatdrink/img/navi/47888_h.gif?cc=1072640262129" alt="The Arts" border="0"></A></TD></TR><TR><TD><A onmouseout="reSwapImage('CM4all_47524');" onmouseover="swapImage('CM4all_47524');" href="./47524.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47524" src="./templates/Eatdrink/img/navi/47524_n.gif?cc=1072640262129" alt="Granola" border="0"></A> </TD> </TR>
-<TR><TD><A href="./4777.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47431" src="./templates/Eatdrink/img/navi/47431_n.png?cc=1072640262129" alt="Menus" border="0"></A></TD></TR><TR><TD><A onmouseout="reSwapImage('CM4all_47462');" onmouseover="swapImage('CM4all_47462');" href="./47462.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47462" src="./templates/Eatdrink/img/navi/47462_n.gif?cc=1072640262129" alt="Catering" border="0"></A></TD></TR><TR><TD><A onmouseout="reSwapImage('CM4all_47919');" onmouseover="swapImage('CM4all_47919');" href="./47919.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47919" src="./templates/Eatdrink/img/navi/47919_n.gif?cc=1072640262129" alt="Buy Krista's CD!" border="0"></A></TD></TR><TR><TD><A onmouseout="reSwapImage('CM4all_47493');" onmouseover="swapImage('CM4all_47493');" href="./47493.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47493" src="./templates/Eatdrink/img/navi/47493_n.gif?cc=1072640262129" alt="Order Info" border="0"></A></TD></TR><TR><TD><A onmouseout="reSwapImage('CM4all_47555');" onmouseover="swapImage('CM4all_47555');" href="./47555.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47555" src="./templates/Eatdrink/img/navi/47555_n.gif?cc=1072640262129" alt="Contact Us" border="0"></A></TD></TR></TABLE></TD><TD width="546" valign="top" bgcolor="#FFFFFF"><TABLE width="546" cellspacing="0" cellpadding="0" border="0"><TR><TD width="16">&nbsp;</TD><TD width="519">&nbsp;</TD><TD width="11">&nbsp;</TD></TR><TR><TD width="16">&nbsp;</TD><TD width="519"><CENTER></CENTER><P><IMG src="./img/content/47888_47890.gif"><BR clear="all"></P><P>The Town Hall Bakery is committed to supporting the arts.&nbsp;&nbsp; We currently participate in hosting of the Ukulele Society of Door County, which meets bi-monthly. We are not currently hosting any music events, but are always open to community events! <BR clear="all"></P><P><BR clear="all"></P><CENTER></CENTER></TD><TD width="11">&nbsp;</TD></TR><TR><TD width="16">&nbsp;</TD><TD width="519">&nbsp;</TD><TD width="11">&nbsp;</TD></TR></TABLE></TD><TD width="17" bgcolor="#FFFFFF">&nbsp;</TD></TR></TABLE></TD></TR><TR><TD><IMG width="718" src="./templates/Eatdrink/img/7575CE/unten.gif" height="27"><A href="#top"><IMG width="42" src="./templates/Eatdrink/img/7575CE/totop.gif" height="27" border="0"></A></TD></TR></TABLE></CENTER><SCRIPT>
+				</TABLE>
+						</TD> 
+					</TR>
+					<TR> 
+						<TD width="563"></TD> 
+					</TR> 
+				</TABLE>
+			</TD>
+		</TR>
+		<TR> 
+			<TD valign="top"> 
+				<TABLE width="760" cellspacing="0" cellpadding="0" border="0"> 
+				<TR>
+					<TD width="150" valign="top" background="./templates/New/navi/background.jpg">
+						<TABLE cellspacing="0" cellpadding="0" border="0">
+							<TR>
+								<TD> <br /> </TD> 
+							</TR> 
+							<TR>
+								<TD> <A href="./4436.html?*session*id*key*=*session*id*val*" target=""> <IMG name="CM4all_4436" src="./templates/New/navi/home.jpg" alt="About Us" border="0"></A> </TD> 
+							</TR> 
+							<TR>
+								<TD> <A onmouseout="reSwapImage('CM4all_47888');" onmouseover="swapImage('CM4all_47888');" href="./47888.html?*session*id*key*=*session*id*val*" target=""> <IMG name="CM4all_47888" src="./templates/New/navi/the_arts.jpg" alt="The Arts" border="0"></A> </TD> 
+							</TR>
+							<TR> 
+								<TD> <A onmouseout="reSwapImage('CM4all_47524');" onmouseover="swapImage('CM4all_47524');" href="./47524.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47524" src="./templates/New/navi/granola.jpg" alt="Granola" border="0"></A> </TD>
+							</TR> 
+							<TR>
+								<TD><A href="./4777.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47431" src="./templates/New/navi/menus.jpg" alt="Menus" border="0"></A> </TD>
+							</TR> 
+							<TR>
+								<TD><A href="./4444.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47431" src="./templates/New/navi/happy_flappy.jpg" alt="Happy Flappy" border="0"></A> </TD>
+							</TR> 
+							<TR> 
+								<TD> <A onmouseout="reSwapImage('CM4all_47462');" onmouseover="swapImage('CM4all_47462');" href="./47462.html?*session*id*key*=*session*id*val*" target=""> <IMG name="CM4all_47462" src="./templates/New/navi/catering_cakes.jpg" alt="Catering" border="0"></A> </TD> 
+							</TR>
+							<TR>
+								<TD> <A onmouseout="reSwapImage('CM4all_47919');" onmouseover="swapImage('CM4all_47919');" href="./47919.html?*session*id*key*=*session*id*val*" target=""> <IMG name="CM4all_47919" src="./templates/New/navi/buy_kristas_cd.jpg" alt="Buy Krista's CD!" border="0"> </A> </TD>
+							</TR>
+							<TR> 
+								<TD> <A href="./47493.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47493" src="./templates/New/navi/baked_goods.jpg" onmouseout="./templates/New/navi/baked_goods.jpg" onmouseover="./temp lates/New/navi/baked_goods_c.jpg" alt="Baked Goods" border="0"> </A> </TD>
+							</TR> 
+							<TR> 
+								<TD><A onmouseout="reSwapImage('CM4all_47555');" onmouseover="swapImage('CM4all_47555');" href="./47555.html?*session*id*key*=*session*id*val*" target=""><IMG name="CM4all_47555" src="./templates/New/navi/contact.jpg" alt="Contact Us" border="0"> </A> </TD>
+							</TR></TABLE></TD><TD width="546" valign="top" bgcolor="#FFFFFF"><TABLE width="546" cellspacing="0" cellpadding="0" border="0"><TR><TD width="16">&nbsp;</TD><TD width="519">&nbsp;</TD><TD width="11">&nbsp;</TD></TR><TR><TD width="16">&nbsp;</TD><TD width="519"><CENTER></CENTER><P><IMG src="./img/content/47888_47890.gif"><BR clear="all"></P><P>The Town Hall Bakery is committed to supporting the arts.&nbsp;&nbsp; We currently participate in hosting of the Ukulele Society of Door County, which meets bi-monthly. We are not currently hosting any music events, but are always open to community events! <BR clear="all"></P><P><BR clear="all"></P><CENTER></CENTER></TD><TD width="11">&nbsp;</TD></TR><TR><TD width="16">&nbsp;</TD><TD width="519">&nbsp;</TD><TD width="11">&nbsp;</TD></TR></TABLE></TD><TD width="17" bgcolor="#FFFFFF">&nbsp;</TD></TR></TABLE></TD></TR><TR><TD><IMG width="718" src="./templates/New/navi/uten.jpg" height="27"><A href="#top"><IMG width="42" src="./templates/Eatdrink/img/7575CE/totop.gif" height="27" border="0"></A></TD></TR></TABLE></CENTER><SCRIPT>
 
 for(var i=0; i<document.images.length; i++) {
 if (document.images[i].name.indexOf("CM4all_") == 0) {
