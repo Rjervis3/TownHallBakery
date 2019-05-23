@@ -1,19 +1,25 @@
 html {
-overflow: hidden;
+	overflow: hidden;
 } 
 
 body {
 	font-family: georgia;
 	background-color: #E8CCC3;
-}
-
-body {
- 	height:120vh;
+	height:120vh;
  	overflow: hidden;
- }
+ 	margin: 0px;
+ 	font-size: 2.75rem; 
+ 	text-align: center;
+}
 
  main {
  	height: 100%;
+ }
+
+ a {
+ 	text-decoration: none;
+ 	color: black;
+ 	font-size: 3rem
  }
 
  #overlay {
@@ -31,15 +37,17 @@ body {
 	left:0;
 	padding: 20px;
 	padding-top: 20px;
+	height:20%;
 }
 
 #coming-soon {
 	position: fixed;
 	left: 0px;
-	width: 35%;
-	top: 35%;
+	width: 38%;
+	top: 34%;
 	text-align: center;
 	font-size: 4rem;
+	padding-left: 15px;
 }
 
 #triangle {
@@ -52,52 +60,92 @@ body {
   	border-top: 0 solid transparent;
   	border-bottom: 120vh solid transparent;
   
+  	
   	border-left: 40vh solid white;
   	z-index: 1;
-
 }
 
-/* for iphone 4 phones */
-@media (max-device-width: 320px) {
+ #bakery {
+ 	height:40%;
+ 	margin-left: 25%;
+ 	margin-top: -4%;
+ }
+
+ #contact {
+ 	position: fixed;
+ 	bottom: 4px;
+ 	left: 10%;
+ 	font-size: 2.5rem;
+ 	text-align: center;
+ 	padding: 15px 0 0 75px;
+ 	margin: 0;
+ }
+
+/* iphone x */
+@media (min-device-height:812px) {
+  #opening {
+  	padding-top: 25%!important;
+  	padding-left: 25%!important;
+  }
+ }
+
+ @media (min-device-width:768px) {
+
+  #coming-soon {
+  	top:50%;
+  	font-size: 2rem;
+  	padding-left: 0px;
+  	margin-left: -10px;
+  }
+
+  #triangle {
+  	border-bottom: 240vw solid transparent;
+  	border-left: 85vh solid white;
+  }
+
+  #sign {
+  	height:39%;
+  	
+  }
+
+  #bakery {
+  	height: 60%;
+  	margin-left: 41%;
+  }
+
+  #contact {
+  	z-index: 3;
+  	font-size: 16px;
+  	left:0;
+  	padding:0;
+  	padding-left: 35px;
+  }
+
+  a{
+  	font-size: 18px;
+  }
+
+  #opening {
+  	
+  	padding-top: 0!important;
+  	padding-left: 25%!important;
+
+  }
+
+  #opening > p {
+  	font-size: 30px!important;
+  }
+
+  #weekend{
+  	padding-left: 24%!important;
+  }
+ }
+
+ @media (min-width:1180px) {
  	body {
- 		font-size: 2.75rem; 
- 		text-align: center;
- 	}
-
- 	#bakery {
- 		width: 95%;
- 		margin-left: 225px;
- 		margin-top: -30px;
-
- 	}
-
- 	#contact {
- 		position: fixed;
- 		bottom: 0;
- 		left: 10%;
- 		font-size: 2.5rem;
- 		text-align: center;
- 		padding: 15px 0 0 75px;
- 		margin: 0;
- 	}
-
-
+ 	#background-color:red;
+ }
  }
 
 
-@media (max-device-width: 1024px) {
-  /*IPad portrait AND netbooks, AND anything with smaller screen*/
-  /*make the design flexible if possible */
-  /*Structure your code thinking about all devices that go below*/
-}
-@media (max-device-width: 640px) {
- /*Iphone portrait and smaller*/
-}
-@media (max-device-width: 540px) {
- /*Smaller and smaller...*/
- 
-}
 
-
-
-/* for desktop */
