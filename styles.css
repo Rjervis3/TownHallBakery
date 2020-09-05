@@ -59,8 +59,6 @@ body {
   	height: 0; 
   	border-top: 0 solid transparent;
   	border-bottom: 120vh solid transparent;
-  
-  	
   	border-left: 40vh solid white;
   	z-index: 1;
 }
@@ -99,8 +97,8 @@ body {
   }
 
   #triangle {
-  	border-bottom: 240vw solid transparent;
-  	border-left: 85vh solid white;
+  	border-bottom: 190vw solid transparent;
+  	border-left: 80vh solid white;
   }
 
   #sign {
@@ -128,12 +126,12 @@ body {
   #opening {
   	
   	padding-top: 0!important;
-  	padding-left: 25%!important;
+  	padding-left: 30%!important;
 
   }
 
   #opening > p {
-  	font-size: 30px!important;
+  	font-size: 25px!important;
   }
 
   #weekend{
