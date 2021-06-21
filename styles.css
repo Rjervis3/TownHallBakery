@@ -1,15 +1,12 @@
-html {
-	overflow: hidden;
-} 
+
 
 body {
 	font-family: georgia;
 	background-color: #E8CCC3;
-	height:120vh;
- 	overflow: hidden;
- 	margin: 0px;
+	/*height:120vh;*/
  	font-size: 2.75rem; 
  	text-align: center;
+  margin: 0;
 }
 
  main {
@@ -22,7 +19,18 @@ body {
  	font-size: 3rem
  }
 
- #overlay {
+ .footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  /*display: none*/
+}
+
+/* #overlay {
  	position: fixed;
  	top: 0; 
   	left: 0;
@@ -77,10 +85,10 @@ body {
  	text-align: center;
  	padding: 15px 0 0 75px;
  	margin: 0;
- }
+ }*/
 
 /* iphone x */
-@media (min-device-height:812px) {
+/*@media (min-device-height:812px) {
   #opening {
   	padding-top: 25%!important;
   	padding-left: 25%!important;
@@ -147,3 +155,4 @@ body {
 
 
 
+*/
